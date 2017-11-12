@@ -18,8 +18,6 @@ Tech stack includes Angular 5, Angular cli, Webpack, Typescript, Angular Materia
 
 <img src="https://raw.githubusercontent.com/JohnByrneRepo/universal-angular-5-youtube/master/details-mobile.png" width="300">
 
-<img src="https://raw.githubusercontent.com/JohnByrneRepo/universal-angular-5-youtube/master/details.png" width="300">
-
 Built on the bootstrap code from: https://github.com/angular/universal-starter
 
 This repo demonstrates the use of 2 different forms of Server Side Rendering.
