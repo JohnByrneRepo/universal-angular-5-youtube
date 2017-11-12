@@ -8,7 +8,13 @@ Tech stack includes Angular 5, Angular cli, Webpack, Typescript, Angular Materia
 
 <img src="https://raw.githubusercontent.com/JohnByrneRepo/universal-angular-5-youtube/master/listing-tablet.png" width="300">
 
+<img src="https://raw.githubusercontent.com/JohnByrneRepo/universal-angular-5-youtube/master/listing-ellipsis.png" width="300">
+
 <img src="https://raw.githubusercontent.com/JohnByrneRepo/universal-angular-5-youtube/master/listing-mobile.png" width="300">
+
+<img src="https://raw.githubusercontent.com/JohnByrneRepo/universal-angular-5-youtube/master/details-tablet.png" width="300">
+
+<img src="https://raw.githubusercontent.com/JohnByrneRepo/universal-angular-5-youtube/master/details-mobile.png" width="300">
 
 <img src="https://raw.githubusercontent.com/JohnByrneRepo/universal-angular-5-youtube/master/details.png" width="300">
 
