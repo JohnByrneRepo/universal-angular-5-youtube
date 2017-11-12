@@ -8,7 +8,7 @@
     "url": "https://github.com/johnbyrnerepo/universal-angular-2-youtube.git"
   },
   "engines": {
-    "node": "0.10.41",
+    "node": "7.6.0",
     "npm": "5.5.1"
   },
   "scripts": {
