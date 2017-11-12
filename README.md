@@ -4,11 +4,11 @@ A deployed version can be viewed on Github Pages here: https://git.io/vFr80
 
 The deployed version makes some adjustments to routing, due to gh server configuration. I'm also planning to deploy this to Heroku oonce they have resolved the issues with Angular cli 5 support.
 
-![alt text](listing-tablet.png)
+![alt text](listing-tablet.png | width = 100)
 
-![alt text](listing-mobile.png)
+![alt text](listing-mobile.png | width = 100)
 
-![alt text](details.png)
+![alt text](details.png | width = 100)
 
 Built on the bootstrap code from: https://github.com/angular/universal-starter
 
