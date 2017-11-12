@@ -1,10 +1,16 @@
-Beyond Universal Angular 2 code test, by John Byrne
+### Beyond Universal Angular code test, by John Byrne
 
-![alt text](listing-tablet.png)
+A deployed version can be viewed on Github Pages here: https://git.io/vFr80
 
-![alt text](listing-mobile.png)
+The deployed version makes some adjustments to routing, due to gh server configuration. I'm also planning to deploy this to Heroku oonce they have resolved the issues with Angular cli 5 support.
 
-![alt text](details.png)
+Tech stack includes Angular 5, Angular cli, Webpack, Typescript, Angular Material, NgRx, RxJs.
+
+<img src="https://raw.githubusercontent.com/JohnByrneRepo/universal-angular-5-youtube/master/listing-tablet.png" width="300">
+
+<img src="https://raw.githubusercontent.com/JohnByrneRepo/universal-angular-5-youtube/master/listing-mobile.png" width="300">
+
+<img src="https://raw.githubusercontent.com/JohnByrneRepo/universal-angular-5-youtube/master/details.png" width="300">
 
 Built on the bootstrap code from: https://github.com/angular/universal-starter
 
