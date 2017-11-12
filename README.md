@@ -6,6 +6,8 @@ The deployed version replaces the routing due to the Github Pages server configu
 
 Tech stack includes Angular 5, Angular cli, Webpack, Typescript, Angular Material, NgRx, RxJs.
 
+<img src="https://raw.githubusercontent.com/JohnByrneRepo/universal-angular-5-youtube/master/listing.png" width="300">
+
 <img src="https://raw.githubusercontent.com/JohnByrneRepo/universal-angular-5-youtube/master/listing-tablet.png" width="300">
 
 <img src="https://raw.githubusercontent.com/JohnByrneRepo/universal-angular-5-youtube/master/listing-ellipsis.png" width="300">
