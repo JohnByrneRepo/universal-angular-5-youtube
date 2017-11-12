@@ -1,18 +1,21 @@
 import { NgModule } from '@angular/core';
-import { SanitizeUrlPipe } from './sanitize-url';
 import { FormatDatePipe } from './format-date';
+import { PreserveUrlsPipe } from './preserve-urls';
+import { SanitizeUrlPipe } from './sanitize-url';
 
 @NgModule({
-    declarations: [
-        SanitizeUrlPipe,
-        FormatDatePipe
-    ],
-    imports: [
+  declarations: [
+    FormatDatePipe,
+    PreserveUrlsPipe,
+    SanitizeUrlPipe
+  ],
+  imports: [
 
-    ],
-    exports: [
-        SanitizeUrlPipe,
-        FormatDatePipe
-    ]
+  ],
+  exports: [
+    FormatDatePipe,
+    PreserveUrlsPipe,
+    SanitizeUrlPipe
+  ]
 })
 export class PipesModule { }

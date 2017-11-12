@@ -3,6 +3,10 @@
   "description": "Beyond universal Angular 5 Youtube Api test",
   "version": "0.0.0",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/johnbyrnerepo/universal-angular-2-youtube.git"
+  },
   "engines": {
     "node": "7.6.0",
     "npm": "4.1.2"
@@ -17,10 +21,14 @@
     "generate:prerender": "cd dist && node prerender",
     "webpack:server": "webpack --config webpack.server.config.js --progress --colors",
     "serve:prerender": "cd dist/browser && http-server",
-    "serve:ssr": "node dist/server"
+    "serve:ssr": "node dist/server",
+    "postinstall": "ng build"
   },
   "private": true,
   "dependencies": {
+    "@angular/cli": "^1.5.0",
+    "@angular/compiler-cli": "^5.0.0",
+    "@angular/language-service": "^5.0.0",
     "@angular/animations": "^5.0.1",
     "@angular/cdk": "^5.0.0-rc0",
     "@angular/common": "^5.0.0",
@@ -38,12 +46,10 @@
     "@nguniversal/module-map-ngfactory-loader": "^5.0.0-beta.5",
     "core-js": "^2.4.1",
     "rxjs": "^5.5.2",
+    "typescript": "~2.4.2",
     "zone.js": "^0.8.14"
   },
   "devDependencies": {
-    "@angular/cli": "^1.5.0",
-    "@angular/compiler-cli": "^5.0.0",
-    "@angular/language-service": "^5.0.0",
     "@types/node": "^8.0.30",
     "cpy-cli": "^1.0.1",
     "express": "^4.15.2",
@@ -53,6 +59,5 @@
     "reflect-metadata": "^0.1.10",
     "sass-loader": "^6.0.6",
     "ts-loader": "^2.3.7",
-    "typescript": "~2.4.2"
   }
 }

@@ -25,7 +25,7 @@ interface AppState {
             <h2 class="title">{{ video.snippet.title }}</h2>
           </a>
           <h3 class="published-at">{{ video.contentDetails.videoPublishedAt | formatDate }}</h3>
-          <h5 class="description">{{ video.snippet.description }}</h5>
+          <h5 class="description" [innerHTML]="video.snippet.description | preserveUrls"></h5>
         </div>
       </li>
     </div>
