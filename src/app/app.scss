@@ -1,0 +1,38 @@
+.app-root {
+  h1.page-title {
+    background: #eee;
+    padding: 10px;
+  }
+  div.return-to-listing {
+    background: #f00;
+    padding: 12px;
+    height: 12px;
+    width: 100%;
+    cursor: pointer;
+    a {
+      color: #fff;
+    }
+  }
+  div.page-links {
+    background: #f00;
+    padding: 10px;
+    width: 100%;
+    a.page-link {
+      padding: 0px 10px;
+      color: #fff;
+      font-size: 14px;
+      &.active-link {
+        font-weight: 700;
+        border-bottom: 2px solid white;
+        padding-bottom: 8px;
+      }
+    }
+    mat-form-field {
+      float: right;
+      padding-right: 28px;
+      display: inherit;
+      position: relative;
+      bottom: 10px;
+    }
+  }
+}
