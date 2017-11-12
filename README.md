@@ -2,7 +2,7 @@
 
 A deployed version can be viewed on Github Pages here: https://git.io/vFr80
 
-The deployed version makes some adjustments to routing, due to gh server configuration. I'm also planning to deploy this to Heroku oonce they have resolved the issues with Angular cli 5 support.
+The deployed version replaces the routing due to the Github Pages server configuration. A Heroku deployment is planned once Angular cli 5 support is added.
 
 Tech stack includes Angular 5, Angular cli, Webpack, Typescript, Angular Material, NgRx, RxJs.
 
