@@ -6,11 +6,11 @@ The deployed version makes some adjustments to routing, due to gh server configu
 
 Tech stack includes Angular 5, Angular cli, Webpack, Typescript, Angular Material, NgRx, RxJs.
 
-<img src="https://raw.githubusercontent.com/JohnByrneRepo/universal-angular-5-youtube/master/listing-tablet.png" width="100" height="100">
+<img src="https://raw.githubusercontent.com/JohnByrneRepo/universal-angular-5-youtube/master/listing-tablet.png" width="300">
 
-<img src="https://raw.githubusercontent.com/JohnByrneRepo/universal-angular-5-youtube/master/listing-mobile.png" width="100" height="100">
+<img src="https://raw.githubusercontent.com/JohnByrneRepo/universal-angular-5-youtube/master/listing-mobile.png" width="300">
 
-<img src="https://raw.githubusercontent.com/JohnByrneRepo/universal-angular-5-youtube/master/details.png" width="100" height="100">
+<img src="https://raw.githubusercontent.com/JohnByrneRepo/universal-angular-5-youtube/master/details.png" width="300">
 
 Built on the bootstrap code from: https://github.com/angular/universal-starter
 
