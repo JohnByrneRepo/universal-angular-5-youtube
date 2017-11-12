@@ -4,11 +4,13 @@ A deployed version can be viewed on Github Pages here: https://git.io/vFr80
 
 The deployed version makes some adjustments to routing, due to gh server configuration. I'm also planning to deploy this to Heroku oonce they have resolved the issues with Angular cli 5 support.
 
-![alt text](listing-tablet.png | width = 100)
+Tech stack includes Angular 5, Angular cli, Webpack, Typescript, Angular Material, NgRx, RxJs.
 
-![alt text](listing-mobile.png | width = 100)
+<img src="https://raw.githubusercontent.com/JohnByrneRepo/universal-angular-5-youtube/master/listing-tablet.png" width="100" height="100">
 
-![alt text](details.png | width = 100)
+<img src="https://raw.githubusercontent.com/JohnByrneRepo/universal-angular-5-youtube/master/listing-mobile.png" width="100" height="100">
+
+<img src="https://raw.githubusercontent.com/JohnByrneRepo/universal-angular-5-youtube/master/details.png" width="100" height="100">
 
 Built on the bootstrap code from: https://github.com/angular/universal-starter
 
