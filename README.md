@@ -1,4 +1,8 @@
-Beyond Universal Angular 2 code test, by John Byrne
+Beyond Universal Angular code test, by John Byrne
+
+A deployed version can be viewed on Github Pages here: https://git.io/vFr80
+
+The deployed version makes some adjustments to routing, due to gh server configuration. I'm also planning to deploy this to Heroku oonce they have resolved the issues with Angular cli 5 support.
 
 ![alt text](listing-tablet.png)
 
