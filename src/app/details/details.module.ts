@@ -53,7 +53,9 @@ export class DetailsComponent {
           this.video = video
         );
     });
-    this.store.dispatch(new AppActions.SetNavbarStatus('HIDDEN'));
+    setTimeout(() => {
+      this.store.dispatch(new AppActions.SetNavbarStatus('HIDDEN'));
+    }, 0);
   }
 }
 

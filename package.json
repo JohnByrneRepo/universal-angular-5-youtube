@@ -17,7 +17,10 @@
     "generate:prerender": "cd dist && node prerender",
     "webpack:server": "webpack --config webpack.server.config.js --progress --colors",
     "serve:prerender": "cd dist/browser && http-server",
-    "serve:ssr": "node dist/server"
+    "serve:ssr": "node dist/server",
+    "test": "ng test",
+    "lint": "ng lint",
+    "e2e": "ng e2e"
   },
   "private": true,
   "dependencies": {
@@ -37,7 +40,6 @@
     "@nguniversal/express-engine": "^5.0.0-beta.5",
     "@nguniversal/module-map-ngfactory-loader": "^5.0.0-beta.5",
     "core-js": "^2.4.1",
-    "@ngrx/store": "^4.1.1",
     "rxjs": "^5.5.2",
     "zone.js": "^0.8.14"
   },
@@ -45,15 +47,30 @@
     "@angular/cli": "^1.5.0",
     "@angular/compiler-cli": "^5.0.0",
     "@angular/language-service": "^5.0.0",
-    "@types/node": "^8.0.30",
+    "@types/jasmine": "~2.5.53",
+    "@types/jasminewd2": "~2.0.2",
+    "@types/node": "~6.0.60",
+    "ajv": "^5.3.0",
+    "codelyzer": "^4.0.1",
     "cpy-cli": "^1.0.1",
     "express": "^4.15.2",
     "http-server": "^0.10.0",
+    "jasmine-core": "~2.6.2",
+    "jasmine-spec-reporter": "~4.1.0",
+    "karma": "^1.7.1",
+    "karma-chrome-launcher": "~2.1.1",
+    "karma-cli": "~1.0.1",
+    "karma-coverage-istanbul-reporter": "^1.2.1",
+    "karma-jasmine": "~1.1.0",
+    "karma-jasmine-html-reporter": "^0.2.2",
     "node-sass": "^4.6.0",
+    "protractor": "~5.1.2",
     "raw-loader": "^0.5.1",
     "reflect-metadata": "^0.1.10",
     "sass-loader": "^6.0.6",
     "ts-loader": "^2.3.7",
+    "ts-node": "~3.2.0",
+    "tslint": "~5.7.0",
     "typescript": "~2.4.2"
   }
 }
