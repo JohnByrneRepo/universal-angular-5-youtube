@@ -1,6 +1,6 @@
+import { YoutubeService } from './youtube.service';
 import { TestBed } from '@angular/core/testing';
 import { HttpClientTestingModule, HttpTestingController } from '@angular/common/http/testing';
-import { YoutubeService } from './youtube.service';
 import { HttpModule } from '@angular/http';
 
 let playlistIdDictionary = {
