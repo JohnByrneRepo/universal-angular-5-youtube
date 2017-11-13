@@ -1,5 +1,5 @@
 import * as AppActions from '../actions/app.actions';
-import { App } from '../models/app.model'
+import { App } from '../models/app.model';
 export type Action = AppActions.All;
 
 const playlistIdDictionary = {
@@ -17,7 +17,7 @@ const newState = (state, newData) => {
 }
 
 export function appReducer(state: App = defaultState, action: Action) {
-  console.log(action.type, state);
+  // console.log(action.type, state);
   
   switch (action.type) {  
       case AppActions.SET_PLAYLIST_ID:
