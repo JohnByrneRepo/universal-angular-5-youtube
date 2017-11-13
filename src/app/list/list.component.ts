@@ -74,6 +74,8 @@ export class ListComponent {
 
   ngOnInit() {
     this.getPlaylist();
-    this.store.dispatch(new AppActions.SetNavbarStatus('FULL_WIDTH'));
+    setTimeout(() => {
+      this.store.dispatch(new AppActions.SetNavbarStatus('FULL_WIDTH'));
+    }, 0);
   }
 }
